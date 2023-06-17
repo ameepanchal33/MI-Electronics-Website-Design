@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="NewProject3.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <script src="https://kit.fontawesome.com/d717c56db2.js" crossorigin="anonymous"></script>
+  <title>MI-Electonics</title>
+</head>
+
+<body>
+  <!-- Header -->
+
+   <!-- <section id="header"> -->
+     
+     <!-- <div class="main"> -->
+  <nav >
+    <a href="#home">
+      <div class="logo">
+        <img src="logo.jpeg" alt="" width="100px" height="100px">
+        <h1>M<span>I</span>_Electronics</h1>
+      </div>
+    </a>
+
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- </div> -->
+      <!-- </section>  -->
+  <!-- End Header -->
+
+  <!-- Home -->
+  <div class="home">
+    <img src="lp.webp" alt="" width="100%" height="645px">
+    <h2>Greetings at <br> MI_Electronics</h2>
+    <h5>" MI_Electronics continue to drive innovation in the electronic industry."</h5>
+    <div class="home_button">
+      <a href="Explorenow.html"><span></span>
+        <center><b>EXPLORE NOW</b></center><i class="fa-solid fa-right-long"></i>
+      </a>
+    </div>
+  </div>
+  <!-- End Home -->
+
+  <!-- About -->
+  <section class="about" id="about">
+    <center>
+      <h1>About Us</h1>
+    </center>
+    <div class="about_1">
+      <img src="van.jpg" alt="">
+    </div>
+    <div class="about_1">
+      <p>  Welcome to MI Electronics!
+      
+        <ul>
+          <li>&nbsp;&nbsp;At MI Electronics, we have been at the forefront of the electronic industry since our establishment in 2004. With a strong commitment to innovation, quality, and customer satisfaction, we have become a trusted name in the market.</li>
+          <br>
+          <li>&nbsp;&nbsp;Our mission is to provide cutting-edge electronic solutions that enhance people's lives. We believe that technology should be accessible, reliable, and tailored to meet the evolving needs of our customers. From consumer electronics to industrial applications, we offer a diverse range of high-quality products that integrate seamlessly into your everyday life.</li>
+          <br>
+          <li>&nbsp;&nbsp;At MI Electronics, our customers are at the heart of everything we do. We value your trust and strive to exceed your expectations. Our dedicated customer support team is always ready to assist you, providing prompt responses and personalized guidance. We believe in building long-term relationships with our customers, and your satisfaction is our ultimate goal.</li>
+          <br>
+          <li>&nbsp;&nbsp;We invite you to explore our range of electronic products and experience the MI Electronics difference. Connect with us through our website, give us a call, or visit our store. We look forward to serving you and providing you with electronic solutions that will enhance your life.</li>
+          <br>
+          <li>&nbsp;&nbsp;Thank you for choosing MI Electronics.</li>
+        </ul>
+
+
+       </p>
+      <br>
+      <button type="button"><a href="">SEE MORE</a></button>
+    </div>
+  </section>
+  <!-- End About -->
+
+  <!-- Slider -->
+  <section class="#services" id="services">
+    <div class="team">
+      <h1>
+        <center>Our Team</center>
+      </h1>
+    </div>
+    <div class="container">
+      <div class="swiper">
+        <!-- <h1><center>Our Team</center></h1> -->
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="Pic1.jpg" alt="" width="300px" height="200px">
+            <p> Chief Executive Officer (CEO).</p>
+          
+          </div>
+          <div class="swiper-slide"><img src="Pic2.jpg" alt="" width="300px" height="200px">
+            <p>Chief Technology Officer (CTO).</p>
+          </div>
+          <div class="swiper-slide"><img src="Pic3.jpg" alt="" width="300px" height="200px">
+            <p>Sales Manager - Results-driven sales leader </p>
+          </div>
+          <div class="swiper-slide"><img src="Pic4.jpg" alt="" width="300px" height="200px">
+            <p> Quality Assurance Analyst </p>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        autoplay: {
+          delay: 1000,
+          disableoninteraction: false,
+        },
+        // Optional parameters
+
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
+
+      });
+    </script>
+  </section>
+  <!-- End Slider -->
+
+  <!-- stay in touch -->
+  <!-- <div class="contact_img"> -->
+  <section class="#contact" id="contact">
+    <div class="sty">
+      <h1>
+        <center>Stay in touch</center>
+      </h1>
+    </div>
+    <div class="stay">
+      <br><br><br><br><br><br><br><br><br><br>
+      <form>
+        <b>
+          <label for="Name">Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="text" required><br><br>
+          <label
+            for="Email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="email" required><br><br>
+          <label for="Contact No.">Contact No.:</label>&nbsp;&nbsp;&nbsp;
+          <input type="number" required><br><br>
+          <label for="Feedback">Feedback:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <textarea name="Feedback" id="" cols="0" rows="0"></textarea> <br><br>
+          <label for="Submit"></label>
+          <input type="submit">
+        </b>
+      </form>
+    </div>
+  </section>
+
+  <!-- </div> -->
+  <!--End -->
+
+  <!-- footer -->
+  <footer>
+    <div class="footer">
+      <center><p>M<span>I</span>_Electronics</p></center>
+    <br>
+     <center>Copyright © MI_Electronics-2022. All rights reserved.</center>
+  </div>
+  </footer>
+  <!-- End -->
+</body>
+
+</html>
